@@ -41,7 +41,7 @@ nav ul li a:hover {
 }
 main{
     display: grid;
-    grid-template: auto 1fr auto;
+    grid-template: auto;
     height: 70%;
 }
 section{
