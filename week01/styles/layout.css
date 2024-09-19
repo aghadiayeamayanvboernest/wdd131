@@ -36,7 +36,7 @@ nav ul li a {
 nav ul li a:hover {
     color:blanchedalmond;
     background-color:black;
-    transition: color 0.3s, background-olor 0.3s;
+    transition: color 0.3s;
     border-radius: 5px;
 }
 main{
