@@ -1,0 +1,17 @@
+/* Main Layout for Larger Screens */
+@media (min-width: 740px){
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .navigation {
+        justify-content: flex-end;
+        flex-direction: row;
+    }
+    .navigation a {
+        flex: 1 1  100%;
+    }
+}
+

@@ -1,0 +1,118 @@
+/* Global Reset */
+/* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header 
+header {
+    display: grid;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: #283593;
+    margin: 2px;
+
+}
+header, main {
+    margin: 0 auto;
+}
+h1 {
+    text-align: left;
+    color: #ffff;
+    padding-top: 12px;
+    font-family: 'Oswald', sans-serif;
+}
+nav {
+    margin: 1rem auto;
+}
+
+/* Small View Navigation */
+#menu {
+    font-size: 1.5rem;
+    border: 0;
+    position: absolute;
+    top:1rem;
+    right: 1rem;
+    background-color: #283593;
+    color: #ffff;
+}
+#menu::before {
+    content: "☰";
+}
+#menu.open::before {
+    content: "X";
+}
+/*.navigation {
+    display: flex;
+    flex-direction: column;
+    
+}
+/*.navigation a {
+    display: none;
+    text-align: center;
+    text-decoration: none;
+    color: #ffff;
+    padding: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+.navigation a:hover {
+    color: greenyellow;
+    font-weight: 700;
+    background-color: black;
+}
+
+/* Open menu styles */
+.open a {
+    display: block;
+}
+.hide {
+    display: none;
+}
+
+/* Main Content */
+h2 {
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+main {
+    text-align: center;
+}
+figure {
+    margin-bottom: 2rem;
+}
+figcaption {
+    margin-top: 0.5rem;
+}
+
+/* Footer */
+footer {
+    background-color: #283593;
+    color: white;
+    text-align: center;
+    margin: 2px;
+    padding: 0.1rem;
+}
+footer p {
+    margin: 0.5rem 0;
+}
+
+#lastModified {
+    font-weight: bold;
+    color: #ff7300; /* Gold for contrast */   
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Sansita", sans-serif;
+}
+
+
