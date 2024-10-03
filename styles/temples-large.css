@@ -17,18 +17,4 @@
     #menu {
         display: none;
     }
-    main{
-        text-align: center;
-    }
-    .images{
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 40px;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 20px;
-
-    }
-
-    
 }
