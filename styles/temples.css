@@ -1,118 +1,119 @@
-/* Global Reset */
-/* {
+/* Universal Reset */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Font Families */
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif; /* Roboto for body text */
+    line-height: 1.6;
 }
 
-/* Header 
-header {
-    display: grid;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    background-color: #283593;
-    margin: 2px;
-
-}
-header, main {
-    margin: 0 auto;
-}
-h1 {
-    text-align: left;
-    color: #ffff;
-    padding-top: 12px;
-    font-family: 'Oswald', sans-serif;
-}
-nav {
-    margin: 1rem auto;
-}
-
-/* Small View Navigation */
+/* mobile View ***************/
 #menu {
-    font-size: 1.5rem;
-    border: 0;
     position: absolute;
-    top:1rem;
-    right: 1rem;
-    background-color: #283593;
-    color: #ffff;
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: none;
+    background-color: tomato;
+    color: yellowgreen;
+    right: .5rem;
+    font-family: 'Oswald', sans-serif; /* Oswald for the menu font */
 }
 #menu::before {
-    content: "☰";
+    content: "≡";
 }
-#menu.open::before {
+#menu.show::before {
     content: "X";
 }
-/*.navigation {
+
+header {
+    background-color: tomato;
     display: flex;
-    flex-direction: column;
-    
+    padding: 20px;
+    font-family: 'Oswald', sans-serif; /* Oswald for the header text */
 }
-/*.navigation a {
+
+.navigation {
+    list-style: none;
+    margin: 0 auto;
+    max-width: 760px;
+}
+.navigation li {
     display: none;
-    text-align: center;
+}
+.navigation a {
+    display: block;
+    padding: .75rem;
+    text-align: left;
     text-decoration: none;
-    color: #ffff;
-    padding: 1rem;
-    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-weight: 700;
+    transition: .5s;
+    font-size: clamp(1rem, 2vmin, 1.5rem);
+    font-family: 'Oswald', sans-serif; /* Oswald for navigation links */
 }
 .navigation a:hover {
-    color: greenyellow;
-    font-weight: 700;
+    color: yellowgreen;
     background-color: black;
 }
 
-/* Open menu styles */
-.open a {
+.show li {
     display: block;
 }
 .hide {
     display: none;
 }
 
-/* Main Content */
+/* Heading Styles */
 h2 {
-    margin-bottom: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     font-size: 1.5rem;
     text-align: center;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald', sans-serif; /* Oswald for section titles */
 }
+
+/* Main Content */
 main {
     text-align: center;
 }
+.images {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
 figure {
     margin-bottom: 2rem;
+    text-align: center;
 }
 figcaption {
     margin-top: 0.5rem;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif; /* Roboto for captions */
 }
 
 /* Footer */
 footer {
-    background-color: #283593;
-    color: white;
+    background-color: tomato;
+    color: black;
     text-align: center;
     margin: 2px;
     padding: 0.1rem;
+    font-weight: 700;
+    font-size: larger;
+    font-family: 'Roboto', sans-serif; /* Roboto for footer */
 }
+
 footer p {
     margin: 0.5rem 0;
 }
 
 #lastModified {
     font-weight: bold;
-    color: #ff7300; /* Gold for contrast */   
+    color: yellowgreen;
 }
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
-
-body {
-	font-family: "Sansita", sans-serif;
-}
-
-
