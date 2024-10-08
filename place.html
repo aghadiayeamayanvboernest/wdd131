@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Dynamic Web Fundamentals - Country - Aghadiaye Amayanvbo Ernest</title>
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Aghadiaye Amayanvbo Ernest">
+    <meta name="author" content="Aghadiaye Amayanvbo Ernest">
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">   
+</head>
+<body> 
+    <header>
+        <h1>Benin City, Nigeria</h1>
+    </header>
+    <main>
+        <div class="hero">
+            <picture>
+                <source media="(min-width: 800px)" srcset="images/hero-large.webp">
+                <source media="(min-width: 400px)" srcset="images/hero-medium.webp">
+                <img src="images/hero-small.webp" alt="Giraffes in a savanna" >
+            </picture>
+        </div>
+        <section class="date">
+            <h2>Date</h2>
+            <ul>
+                <li><span>Area:</span> 1,204 sq km</li>
+                <li><span>Population:</span> 1,782,000 (est. 2023)</li>
+                <li><span>Capital:</span> Benin City</li>
+                <li><span>Languages:</span> English, Edo</li>
+                <li><span>Currency:</span> Nigerian Naira (₦)</li>
+                <li><span>Time Zone:</span> UTC+1 (West Africa Time)</li>
+                <li><span>Calling Code:</span> +234</li> 
+                <li><span>Internet TLD:</span> .ng</li>
+            </ul>
+        </section>
+        <section class="weather">
+            <h2>Weather </h2>
+            <div class="weather-icon">
+                <img src="images/weather-icon.svg" alt="weather Icon">
+            </div>
+            <ul>
+                <li><div>Temperature:</div> <span id="temp">40°F</span></li>
+                <li><div>Conditions:</div> <span id="conditions">clear</span></li>
+                <li><div>Wind:</div> <span id="wind-speed">10 mph</span></li>
+                <li><div>Wind Chill:</div> <span id="wind-chill"></span></li>
+            </ul>
+        </section>    
+    </main>
+    <footer>
+        <p>&copy; <span id="currentyear"></span>❤ Aghadiaye Amayanvbo Ernest ❤ Nigeria</p>
+        <p id="lastModified"></p> 
+    </footer>
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/place.js" defer></script>
+</body>
+</html>
