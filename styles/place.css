@@ -4,50 +4,59 @@
     --secondary-color: #ffffff;
     --accent-color: #fbbd08; 
     --font-color: #333;
-    --heading-font: 'Oswald', sans-serif;
-    --body-font: 'Roboto', sans-serif;
+    --heading-font: 'Oswald', sans-serif; /* Oswald font for headings */
+    --body-font: 'Roboto', sans-serif;    /* Roboto font for body text */
 }
 
 body {
-    font-family: var(--body-font);
+    font-family: var(--body-font); /* Use Roboto for body text */
     background-color: var(--secondary-color);
     color: var(--font-color);
     margin: 0;
     padding: 0;
     line-height: 1.6;
 }
+
 header {
     text-align: center;
     background-color: var(--primary-color);
     color: var(--secondary-color);
     padding: 20px;
 }
-h1{
-    font-family: var(--heading-font);
+
+h1 {
+    font-family: var(--heading-font); /* Use Oswald for the main heading */
     font-size: 2.5rem;
     margin: 0;
 }
+
 main {
     padding: 20px;
 }
-section{
+
+section {
     margin-bottom: 20px;
 }
-.hero{
+
+/* Hero Section */
+.hero {
    justify-content: center;
-   
 }
-.hero img{
+
+.hero img {
     height: 800px;
     width: 100%;
     border-radius: 10px;
     margin-bottom: 20px;
 }
+
+/* Date Section */
 .date h2 {
     text-align: center;
-    font-family: var(--heading-font);
+    font-family: var(--heading-font); /* Oswald for date heading */
     color: var(--primary-color);
 }
+
 .date {
     background-color: white;
     padding: 20px;
@@ -64,14 +73,14 @@ section{
 .date ul li {
     padding: 5px 0;
     font-size: 1rem;
-    text-align: center
+    text-align: center;
 }
 
 .date span {
     font-weight: bold;
- 
-   
 }
+
+/* Weather Section */
 .weather {
     background-color: white;
     padding: 20px;
@@ -79,22 +88,28 @@ section{
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
 .weather h2 {
     text-align: center;
-    font-family: var(--heading-font);
+    font-family: var(--heading-font); /* Oswald for weather heading */
     color: var(--primary-color);
-}.weather ul {
+}
+
+.weather ul {
     list-style: none;
     padding: 0;
 }
+
 .weather ul li {
-    padding: 5px ;
+    padding: 5px;
     font-size: 1.1em;
     text-align: center;
 }
+
 .weather-icon {
     text-align: center;
 }
+
 .weather-icon img {
     vertical-align: middle;
     width: 50px;
@@ -105,6 +120,7 @@ section{
     font-weight: bold;
 }
 
+/* Footer */
 footer {
     background-color: var(--primary-color);
     color: var(--secondary-color);
@@ -112,6 +128,7 @@ footer {
     padding: 10px;
     font-size: 0.9rem;
 }
+
 
 
 
