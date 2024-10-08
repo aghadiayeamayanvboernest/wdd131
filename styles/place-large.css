@@ -12,10 +12,10 @@
         max-width: 100%;
         max-height: 800px;
     }
-    .date, .weather {
+    .data, .weather {
         margin-bottom: 0;
     }
-    .date {
+    .data {
         padding: 0;
         position: absolute;  
         background-color: #eee;
@@ -23,7 +23,7 @@
         opacity: 0.9;
         
     }
-    .date h2 {
+    .data h2 {
         text-align: left;
         font-family: var(--heading-font);
         color: var(--secondary-color);

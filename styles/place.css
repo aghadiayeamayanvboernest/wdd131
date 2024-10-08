@@ -51,13 +51,13 @@ section {
 }
 
 /* Date Section */
-.date h2 {
+.data h2 {
     text-align: center;
     font-family: var(--heading-font); /* Oswald for date heading */
     color: var(--primary-color);
 }
 
-.date {
+.data {
     background-color: white;
     padding: 20px;
     margin: 20px;
@@ -65,18 +65,18 @@ section {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.date ul {
+.data ul {
     list-style: none;
     padding: 0;
 }
 
-.date ul li {
+.data ul li {
     padding: 5px 0;
     font-size: 1rem;
     text-align: center;
 }
 
-.date span {
+.data span {
     font-weight: bold;
 }
 
