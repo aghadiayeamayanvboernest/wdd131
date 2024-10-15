@@ -97,7 +97,7 @@ main {
 .temple-card img {
     width: 100%;
     height: auto;
-    border-radius:px;
+    border-radius: 5px;
 }
 
 .temple-card h3 {
