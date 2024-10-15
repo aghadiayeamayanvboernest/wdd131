@@ -58,7 +58,7 @@ header {
 }
 .navigation a:hover {
     color: yellowgreen;
-    transform: scale(1.05);
+    transform: scale(1.35);
     background-color: black;
 }
 
@@ -92,7 +92,7 @@ main {
     transition: transform 0.3s ease-in-out;
 }
 .temple-card:hover {
-    transform: scale(1.05);
+    transform: scale(1.25);
 }
 .temple-card img {
     width: 100%;
