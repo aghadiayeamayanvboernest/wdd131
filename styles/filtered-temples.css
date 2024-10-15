@@ -1,0 +1,132 @@
+/* Universal Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Font Families */
+body {
+    font-family: 'Roboto', sans-serif; /* Roboto for body text */
+    line-height: 1.6;
+}
+
+/* mobile View ***************/
+#menu {
+    position: absolute;
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: none;
+    background-color: tomato;
+    color: yellowgreen;
+    right: .5rem;
+    font-family: 'Oswald', sans-serif; /* Oswald for the menu font */
+}
+#menu::before {
+    content: "≡";
+}
+#menu.show::before {
+    content: "X";
+}
+
+header {
+    background-color: tomato;
+    display: flex;
+    padding: 20px;
+    font-family: 'Oswald', sans-serif; /* Oswald for the header text */
+}
+
+.navigation {
+    list-style: none;
+    margin: 0 auto;
+    max-width: 760px;
+}
+.navigation li {
+    display: none;
+}
+.navigation a {
+    display: block;
+    padding: .75rem;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    transition: transform 0.3s ease-in-out;
+    font-size: clamp(1rem, 2vmin, 1.5rem);
+    font-family: 'Oswald', sans-serif; /* Oswald for navigation links */
+}
+.navigation a:hover {
+    color: yellowgreen;
+    transform: scale(1.05);
+    background-color: black;
+}
+
+.show li {
+    display: block;
+}
+.hide {
+    display: none;
+}
+
+/* Heading Styles */
+h2 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'Oswald', sans-serif; /* Oswald for section titles */
+}
+
+/* Main Content */
+main {
+   text-align: center; 
+}
+.temple-card {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: #eee;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+.temple-card:hover {
+    transform: scale(1.05);
+}
+.temple-card img {
+    width: 100%;
+    height: auto;
+    border-radius:px;
+}
+
+.temple-card h3 {
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+/* Location, dedication, and area styling (p elements) */
+.temple-card p {
+    font-size: 1em;
+    color: #555;
+    margin: 3px 0;
+}
+/* Footer */
+footer {
+    background-color: tomato;
+    color: black;
+    text-align: center;
+    margin: 2px;
+    padding: 0.1rem;
+    font-weight: 700;
+    font-size: larger;
+    font-family: 'Roboto', sans-serif; /* Roboto for footer */
+}
+
+footer p {
+    margin: 0.5rem 0;
+}
+
+#lastModified {
+    font-weight: bold;
+    color: yellowgreen;
+}
