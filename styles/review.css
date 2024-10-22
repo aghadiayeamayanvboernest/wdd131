@@ -1,0 +1,36 @@
+
+.heading {
+    text-align: center;
+    background-color: purple;
+    padding: 10px;
+    color: #fff;
+}
+
+.para p {
+    padding: 30px;
+    margin: auto;
+    font-size: x-large;
+    font-style: italic;
+    font-weight: bold;
+
+}
+
+footer {
+    background-color: purple;
+    color: white;
+    text-align: center;
+    margin: 2px;
+    padding: 0.1rem;
+    font-weight: 700;
+    font-size: larger;
+    font-family: 'Roboto', sans-serif; /* Roboto for footer */
+}
+
+footer p {
+    margin: 0.5rem 0;
+}
+
+#lastModified {
+    font-weight: bold;
+    color: white;
+}

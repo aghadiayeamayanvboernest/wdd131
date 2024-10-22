@@ -1,0 +1,118 @@
+/* Adding a Google Fonts link for Open Sans */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eee;
+    height: auto;
+    font-family: 'Roboto', sans-serif; /* Roboto for general body text */
+}
+
+main {
+    margin-left: 1px;
+    padding: 2rem;
+    min-height: 20rem;
+}
+
+.heading {
+    text-align: center;
+    background-color: purple;
+    padding: 10px;
+    color: #fff;
+}
+
+.form fieldset {
+    border: none;
+    margin-bottom: 10px;
+    font-family: 'Open Sans', sans-serif; /* Open Sans for form text */
+}
+
+.form legend {
+    font-weight: bold;
+}
+
+.form legend span {
+    font-style: italic;
+    color: blue;
+}
+
+.form legend p {
+    font-style: italic;
+}
+
+.form label {
+    display: block;
+    padding: 2px;
+}
+
+.form label textarea {
+    max-width: 300px;
+    border-radius: 5px;
+    max-height: 300px;
+    min-height: 100px;
+}
+
+.form select {
+    max-width: 300px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.form input[type="text"],
+.form input[type="date"] {
+    max-width: 300px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.rating-container {
+    display: flex;
+    text-align: center;
+    max-width: 300px;
+}
+
+.rating-item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.form input[type="submit"] {
+    border: none;
+    background-image: linear-gradient(black, purple);
+    color: #fff;
+    border-radius: 6px;
+    padding: .8rem;
+    width: 96%;
+    max-width: 300px;
+    box-shadow: 1px 1px 4px #999;
+}
+
+footer {
+    background-color: purple;
+    color: white;
+    text-align: center;
+    margin: 2px;
+    padding: 0.1rem;
+    font-weight: 700;
+    font-size: larger;
+    font-family: 'Roboto', sans-serif; /* Roboto for footer */
+}
+
+footer p {
+    margin: 0.5rem 0;
+}
+
+#lastModified {
+    font-weight: bold;
+    color: white;
+}
+
+
