@@ -1,0 +1,37 @@
+Project Subject 
+
+Subject: Solar Company Information Site   
+Description: This website will provide information about a solar company that specializes in solar panel installation 
+and maintenance. The site will showcase their services, completed projects, customer reviews, and educational resources about solar energy. 
+
+"website will consist of the following pages and content: 
+
+1. Home Page:
+   - Introduction to the solar company with a hero image.
+   - Overview of services offered.
+   - Customer testimonials to build trust.
+
+2. About Us Page: 
+   - Company history and mission statement.
+   - Profiles of key team members.
+   - Explanation of what sets the company apart from competitors.
+
+3. Services Page:
+   - Detailed descriptions of services such as installation, maintenance, and consultation.
+   - FAQs addressing common customer inquiries.
+
+4. Projects Page: 
+   - Showcase of completed projects with images and descriptions.
+   - Categorization of projects (e.g., residential, commercial).
+
+5. Contact Page: 
+   - A contact form for inquiries.
+   - Company contact information and location on a map.
+
+"Reason:"
+    I chose to create a website for a solar company because of my personal interest in renewable energy and its potential to combat climate change. 
+    As someone involved in solar installation, I see this project as an opportunity to not only showcase my work but also to build a personal website 
+    that reflects my expertise in the field. I believe that solar energy is a sustainable solution that can benefit both individuals and communities. 
+    By developing this website, I aim to raise awareness about the advantages of solar energy and provide a resource for potential customers seeking 
+    reliable solar solutions. Additionally, this project allows me to apply the skills I’ve learned in web development, including HTML, CSS, and JavaScript, 
+    in a meaningful way.

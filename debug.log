@@ -1,2 +1,0 @@
-[1021/214420.539:ERROR:registration_protocol_win.cc(108)] CreateFile: The system cannot find the file specified. (0x2)
-[1021/214420.941:ERROR:crashpad_client_win.cc(868)] not connected
