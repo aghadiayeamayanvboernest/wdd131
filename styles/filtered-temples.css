@@ -19,7 +19,7 @@ body {
     font-weight: 700;
     text-decoration: none;
     background-color: tomato;
-    color: yellowgreen;
+    color: #000;
     right: .5rem;
     font-family: 'Oswald', sans-serif; /* Oswald for the menu font */
 }
@@ -106,8 +106,7 @@ main {
 }
 /* Location, dedication, and area styling (p elements) */
 .temple-card p {
-    font-size: 1em;
-    color: #555;
+    font-size: 1rem;
     margin: 3px 0;
 }
 /* Footer */
@@ -125,8 +124,6 @@ footer {
 footer p {
     margin: 0.5rem 0;
 }
-
 #lastModified {
-    font-weight: bold;
-    color: yellowgreen;
+    font-size: small;
 }
