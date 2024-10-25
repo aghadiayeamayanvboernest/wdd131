@@ -1,0 +1,42 @@
+        /* Apply the selected color schema */
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: floralwhite; 
+            color: #333333; 
+            padding: 20px;
+        }
+
+        header {
+            background-color: green;
+            color: #ffff; 
+            padding: 10px 20px;
+            text-align: center;
+        }
+        h2, h3 {
+            font-family: 'Oswald', sans-serif;
+            color: green; 
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        ul {
+            list-style-type: square;
+        }
+
+        .wireframe {
+            text-align: center;
+        }
+
+        .wireframe img {
+            max-width: 100%;
+            height: auto;
+        }
+        footer {
+            background-color: green;
+            text-align: center;
+            padding: 20px;
+            font-size: bold;
+            color: #ffff;
+        }
