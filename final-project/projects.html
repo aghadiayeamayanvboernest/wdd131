@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alpha solarTec | Project Page | Aghadiaye Amayanvbo Ernest | WDD131❤</title>
+    <meta name="description" content="Alpha Solar Solutions - Empowering Your Future with Solar Energy.">
+    <meta name="author" content="Aghadiaye Amayanvbo Ernest">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/alpha.css">
+    <link rel="stylesheet" href="styles/alpha-large.css">
+</head>
+<body>
+    <!--Header Section-->
+    <header>
+        <h1 class="heading">Alpha SolarTec</h1>
+        <a id="menu" href="#"></a>
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>   
+        </nav>
+    
+    </header>
+    <main>
+        <section id="slide">
+            <div class="slide-image">
+                <picture>
+                    <source media="(min-width: 800px)" srcset="images/slide-large.webp">
+                    <source media="(min-width: 400px)" srcset="images/slide-medium.webp">
+                    <img src="images/slide-small.webp" alt="Solar panel installation in a large field" >
+                </picture>
+            </div>
+            <div class="slide-content">
+                <h2>Leading the Charge in Solar Innovation</h2>
+                <p>At Alpha SolarTec, we specialize in harnessing the power of the sun to create sustainable energy solutions for a brighter future. Our expert team is committed to designing and implementing tailored solar systems that lower energy costs, enhance efficiency, and contribute to a cleaner planet.</p>
+                <a href="contact.html" class="cta-button">Get Quote</a>
+            </div> 
+        </section>
+        <section id="projects">
+            <h2>Our Project</h2>
+            <h3>Visit Our Latest Solar And Renewable <br>Energy Project</h3>
+            <nav class="project-nav">
+                <button data-filter="all">All </button>
+                <button data-filter="recent">Recent</button>
+                <button data-filter="old">Old</button>
+                <button data-filter="commercial">Commercial</button>
+                <button data-filter="small">Small</button>
+            </nav>
+        
+            <div id="project-display" class="project-display">
+                <!-- JavaScript will populate this area with project cards -->
+            </div>
+        </section>
+        <section id="ctas">
+            <div class="ctas-container">
+                <div class="ctas-image">
+                    <img src="images/cta1.webp" alt="Solar panel installation" loading="lazy">
+                </div>
+                <div class="ctas-content">
+                    <h2>Get a Free Quote</h2>
+                    <h3>Inspired by our work?</h3>
+                    <p>Empower your future and take control of your energy costs! Embrace the clean energy revolution by switching to solar power and start saving instantly.
+                         Cut down on bills, reduce your carbon footprint, and invest in a brighter, more sustainable world. Take the leap—harness the sun’s limitless energy, 
+                         protect your planet, and watch your savings grow. Don’t wait—transform your energy today and secure a greener tomorrow!.</p>
+                    <a href="contact.html" class="ctas-button">Get a Free Quote</a>
+                </div>
+            </div>
+        </section>    
+    </main>
+     <!-- Footer Section -->
+     <footer>
+        <div class="footer-container">
+            <div class="address">
+                <h3>Address</h3>
+                <p><i class="fas fa-map-marker-alt"></i> 10 All way St, Benin City, Nigeria</p>
+                <p><i class="fas fa-phone"></i> +234 801 234 5678</p>
+                <p><i class="fas fa-envelope"></i> info@alphasolar.com</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-link">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">▸Home</a></li>
+                    <li><a href="about.html">▸About</a></li>
+                    <li><a href="services.html">▸Services</a></li>
+                    <li><a href="projects.html">▸Projects</a></li>
+                    <li><a href="contact.html">▸Contact</a></li>
+                </ul>
+            </div>
+            <div class="photo-gallery">
+                <h3>Project Gallery</h3>
+                <div class="gallery-images">
+                    <img src="images/gallery1.webp" alt="Gallery image 1">
+                    <img src="images/istockphoto-1709276367-612x612.webp" alt="Gallery image 2">
+                    <img src="images/giorgio-trovato-mIlvCv21W1s-unsplash.webp" alt="Gallery image 3">
+                    <img src="images/istockphoto-1350974326-612x612.webp" alt="Gallery image 4">
+                </div>    
+            </div>
+            <!-- Newsletter Subscription Form -->
+            <div class="footer-section newsletter">
+                <h3>Newsletter</h3>
+                <p>Subscribe for Our Newsletter</p>
+                <form id="newsletterForm">
+                    <input type="email" id="newsletter-email" name="email" placeholder="Your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <!-- Copyright -->
+        <div class="footer-section-copyright">
+            <h2>Alpha SolarTec </h2>
+            <p>&copy; <span id="currentyear"></span> Alpha Solar Solutions. All rights reserved . Terms of use | Privacy Policy</p>
+            <p>Design By Aghadiaye Amayanvbo Ernest</p>
+            <p id="lastModified"></p>         
+        </div>
+    </footer>
+    <script src="/scripts/getdates.js" defer></script>
+    <script src="scripts/alpha.js" defer></script>
+</body>
+</html>    
